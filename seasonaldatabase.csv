@@ -1,0 +1,22 @@
+recipe_id,name,description,instructions,season,ingredients,calories
+1,Winter Vegetable Soup,Comforting soup with seasonal vegetables,   Chop all vegetables.   Boil in a pot with vegetable broth.    Simmer for 20 minutes.,Winter,"Carrot, Potato, Spinach",150
+2,Summer Salad,Fresh salad with cucumbers and tomatoes,   Chop cucumber and tomato.   Mix with greens.    Add dressing and serve.,Summer,"Cucumber, Tomato",120
+3,Apple Pie,Classic dessert made with apples,   Prepare the dough.   Slice apples and mix with sugar and cinnamon.    Bake for 40 minutes.,Fall,"Apple, Cinnamon",250
+4,Pumpkin Soup,Hearty pumpkin soup perfect for the fall,   Roast pumpkin.   Blend with cream and spices.    Heat on the stove for 10 minutes.,Fall,"Pumpkin, Onion, Garlic",200
+5,Grilled Corn on the Cob,Simple and delicious grilled corn,   Grill corn until charred.   Serve with butter and salt.,Summer,Corn,180
+6,Carrot Cake,Delicious cake made with fresh carrots,   Mix all ingredients and bake for 30 minutes.   Frost with cream cheese icing.,Winter,"Carrot, Cinnamon, Nuts",350
+7,Strawberry Smoothie,Refreshing smoothie with fresh strawberries,   Blend strawberries with yogurt and honey.,Summer,"Strawberry, Yogurt",100
+8,Chili,Spicy and hearty chili for cold days,"   Brown the meat.   Add beans, tomatoes, and spices.    Simmer for 1 hour.",Winter,"Beef, Beans, Tomato",300
+9,Chilled Cucumber Soup,Light and refreshing cold soup,   Blend cucumber with yogurt and herbs.   Chill for an hour.,Summer,"Cucumber, Yogurt, Herbs",90
+10,Banana Bread,Moist and delicious banana bread,   Mix ingredients.   Bake for 45 minutes.,All Year,"Banana, Flour, Sugar",250
+recipe_id,name,description,instructions,season,ingredients,calories
+11,Mushroom Risotto,Rich and creamy risotto with mushrooms,   Sauté mushrooms.   Add rice and broth.    Simmer until rice is tender.,Fall,"Mushrooms, Rice, Broth",350
+12,Grilled Peach Salad,Refreshing summer salad with grilled peaches,"   Grill peaches.   Toss with arugula, nuts, and balsamic vinegar.",Summer,"Peach, Arugula, Nuts",180
+13,Squash Casserole,Delicious baked casserole with summer squash,   Slice squash and bake with cheese and breadcrumbs.,Summer,"Squash, Cheese, Breadcrumbs",220
+14,Autumn Harvest Soup,Hearty soup with seasonal autumn vegetables,"   Roast squash, sweet potatoes, and carrots.   Blend with broth.",Fall,"Squash, Sweet Potato, Carrot",210
+15,Falafel,Healthy chickpea patties,   Blend chickpeas with herbs.   Shape into patties and fry.,All Year,"Chickpeas, Herbs, Onion",150
+16,Zucchini Bread,Moist bread made with fresh zucchini,   Mix ingredients and bake.   Enjoy with a cup of tea.,Summer,"Zucchini, Flour, Sugar",280
+17,Spring Green Pasta,Light pasta with fresh greens,   Cook pasta.   Sauté greens and toss with pasta.,Spring,"Pasta, Spinach, Garlic",220
+18,Vegetable Stir Fry,Quick stir fry with seasonal vegetables,   Sauté mixed vegetables.   Add soy sauce and serve.,All Year,"Bell Pepper, Broccoli, Soy Sauce",200
+19,Peach Sorbet,Refreshing frozen dessert made from peaches,   Blend peaches with sugar and freeze.,Summer,"Peach, Sugar",120
+20,Hot Chocolate,Rich and creamy hot chocolate for cold days,   Heat milk with cocoa powder and sugar.   Serve with whipped cream.,Winter,"Milk, Cocoa, Sugar",230

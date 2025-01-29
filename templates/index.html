@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Chef AI</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Smart Chef AI</h1>
+    </header>
+    <main>
+        <section id="input-section">
+            <h2>Enter Ingredients</h2>
+            <input type="text" id="ingredient-input" placeholder="Enter ingredients (comma-separated)">
+            <button id="submit-button">Search Recipes</button>
+            <button id="open-camera-button">Open Camera</button>
+            <video id="camera-feed" width="320" height="240" autoplay style="display:none;"></video>
+            <canvas id="canvas" style="display:none;"></canvas>
+            <button id="capture-button" style="display:none;">Capture Image</button>
+        </section>
+        
+        <section id="detected-ingredients-section">
+            <h2>Detected Ingredients</h2>
+            <ul id="detected-ingredients-list"></ul>
+        </section>
+        
+        <section id="recommendations-section">
+            <h2>Recommended Recipes</h2>
+            <div id="recommendations-container"></div>
+        </section>
+
+        <section id="recipe-details-section">
+            <h2>Recipe Details</h2>
+            <div id="details-container">
+                <!-- Title Section -->
+                <h3 id="recipe-title"></h3>
+                <!-- Image Section -->
+                <div id="image-container">
+                    <img id="recipe-image" src="" alt="Recipe Image">
+                </div>
+                <!-- Translation Section -->
+                <div id="translation-controls">
+                    <h3>Translate Recipe Details</h3>
+                    <select id="target-language-select">
+                        <option value="es">Spanish</option>
+                        <option value="fr">French</option>
+                        <option value="de">German</option>
+                        <option value="it">Italian</option>
+                        <option value="zh-cn">Chinese (Simplified)</option>
+                        <!-- Add more languages as needed -->
+                    </select>
+                    <button id="translate-button">Translate</button>
+                </div>
+                <!-- Text Section -->
+                <div id="text-container">
+                    <p id="recipe-ingredients"></p>
+                    <ol id="instructions"></ol>
+                    <div id="calories"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="seasonal-recipes-section">
+    <h2>Seasonal Recipes</h2>
+    <button id="generate-seasonal-recipes-button">Generate Seasonal Recipes</button>
+    <div id="seasonal-recipes-container"></div>
+</section>
+
+<section id="random-recipes-section">
+    <h2>Random Recipes</h2>
+    <button id="generate-random-recipes-button">Generate Random Recipe</button>
+    <div id="random-recipes-container"></div>
+</section>
+    </main>
+
+    <footer>
+        <p>Powered by AI</p>
+    </footer>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
